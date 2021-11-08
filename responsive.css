@@ -1,0 +1,31 @@
+/* mobile */
+@media all and (max-width: 670px) {
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    .brand {
+        margin: 16px 8px 4px 8px;
+    }
+
+    .calculator-screen {
+        width: auto;
+        margin: 0px 16px 16px 16px;
+        z-index: 10;
+    }
+
+    .calculator-keys {
+        width: auto;
+        margin-top: 8px;
+        margin: 0 8px;
+        padding: 16px 0px;
+    }
+
+    button {
+        height: 75px;
+    }
+}
